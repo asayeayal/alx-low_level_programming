@@ -7,7 +7,6 @@
  */
 
 int main(void)
-
 {
 
 	long x, maxf;
