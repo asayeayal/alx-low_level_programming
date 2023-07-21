@@ -6,10 +6,11 @@
  */
 int main(void)
 {
+
 	long i, maxf;
 	long number = 612852475143;
 	double square = sqrt(number);
-
+	
 	for (i = 1; i <= square; i++)
 	{
 	if (number % i == 0)
@@ -19,4 +20,6 @@ int main(void)
 	}
 	printf("%ld\n", maxf);
 	return (0);
+
 }
+
