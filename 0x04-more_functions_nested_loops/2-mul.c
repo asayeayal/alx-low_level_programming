@@ -1,9 +1,10 @@
 #include "main.h"
 
+
 /**
- * mul - Multiply two integers
- * @y: First number to be multiplied
- * @z: second number to be multiplied with first number
+ * mul - Multiplies two integers
+ * @y: The first number to multiply
+ * @z:The second number to multiply with first number
  * Return: The result of multiplication between y param and z param
  */
 
