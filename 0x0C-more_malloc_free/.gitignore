@@ -3,3 +3,4 @@ a
 1-string_nconcat
 2-alloc
 3-array_range
+101-mul 10 98
