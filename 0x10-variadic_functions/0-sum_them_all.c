@@ -6,7 +6,7 @@
  * @n: number of parameters
  * @...: calculate sum of parameters
  *
- * Return: 0
+ * Return: if n == 0 - 0. otherwise the sum of all parameters
  */
 int sum_them_all(const unsigned int n, ...)
 {
