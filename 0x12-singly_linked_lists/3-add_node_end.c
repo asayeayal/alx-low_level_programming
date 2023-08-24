@@ -1,7 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
  * add_node_end - ...
@@ -9,6 +6,7 @@
  * @str: ...
  * Return: ...
  */
+
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new, temp;
@@ -21,7 +19,8 @@ list_t *add_node_end(list_t **head, const char *str)
 	new->str = strdup(str);
 
 	for (n = 0; str[n]; n++)
-		;
+	;
+
 	new->len = n;
 	new->next = NULL;
 	temp = *head;
